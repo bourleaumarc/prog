@@ -1,0 +1,39 @@
+Package: budgetoverview
+Type: Package
+Title: Budget Dashboard using Shiny 
+Version: 0.1.0
+Authors@R: c(person("Konstantinos", "Kourlimpinis", email = "konstantinos.kourlimpinis@unil.ch",
+                  role = c("aut", "cre")),
+            person("Marc", "Bourleau", email = "marc.bourleau@unil.ch",
+                  role = c("ctb")))
+Maintainer: The package maintainer <konstantinos.kourlimpinis@unil.ch>
+Description: Developed as part of our final project for the Programming Tools class, the package provides functions to help users track their financial data. Allow users to generate insights of their income, savings and expenses per category compared to the Swiss average. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    shiny (>= 1.8.0),
+    shinydashboard  (>= 0.7.2),
+    dplyr  (>= 1.1.4),
+    plotly (>= 4.10.3),
+    DT (>= 0.31),
+    ggplot2  (>= 3.4.4),
+    rvest (>= 1.0.3),
+    kableExtra (>= 1.3.4),
+    tidyverse (>= 2.0.0),
+    RColorBrewer (>= 1.1-3),
+    here (>= 1.0.1),
+    scales (>= 1.3.0),
+    magrittr  (>= 2.0.3),
+    renv  (>= 1.0.3)
+Suggests: 
+    knitr (>= 1.45),
+    rmarkdown (>= 2.25),
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Repository: https://github.com/ptds2023/group_c
+BugReports: https://github.com/ptds2023/group_c/issues
+
+
