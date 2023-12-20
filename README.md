@@ -52,7 +52,7 @@ There are two main places to get help with `budgetoverview`:
 -   **R**: contains functions used in the package.
 -   **man**: generated automatically by Roxygen. Documentation of the functions.
 -   **raw-data**: web scrapped data.
--   **vignettes**: contains vignettes used in the `pkgdown` [website](https://ptds2023.github.io/group_c/)
+-   **vignettes**: contains vignettes used in the `pkgdown` [website](https://bourleaumarc.github.io/prog/)
 -   **tests**: tests are conducted on each function for validation
 -   **inst:** used to store non-R files and static content that should be included in the package, such as the presentation files.
 -   **renv**: for managing project-specific dependencies - makes sure the environment is reproducible.
