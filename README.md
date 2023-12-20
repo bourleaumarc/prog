@@ -28,7 +28,7 @@ budgetoverview::launchMyApp()
 
 ## Documentation
 
-Click [here](https://ptds2023.github.io/group_c/articles/function-usage.html)
+Click [here](https://bourleaumarc.github.io/prog/articles/function-usage.html)
 
 ### Key Features:
 
